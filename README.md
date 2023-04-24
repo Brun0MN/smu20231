@@ -2,6 +2,11 @@
 
 Especificar protocolo de sinalização do jogo (versão preliminar) #10:
 
+## Máquinas de estado
+
+Registro e entrada na sala de partida:
+
+```mermaid
 stateDiagram-v2
     state if_registro <<choice>>
 
@@ -18,5 +23,6 @@ stateDiagram-v2
     Registrado --> Entrar_na_sala: "entrar-na-sala"
     Entrar_na_sala --> Na_sala_de_partida: "jogadores"
     Na_sala_de_partida --> [*]
+```
 
  
