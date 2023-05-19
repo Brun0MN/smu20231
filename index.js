@@ -1,4 +1,4 @@
-* Configuração do jogo */
+/* Configuração do jogo */
 import config from "./config.js";
 
 /* Cenas */
